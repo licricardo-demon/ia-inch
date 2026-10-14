@@ -1,0 +1,1592 @@
+{
+  "2e82c1aa-3270-4df2-a131-2176b7a9afa3": {
+    "id": "2e82c1aa-3270-4df2-a131-2176b7a9afa3",
+    "name": "Tanatologia",
+    "date": "2026-10-11T12:02:32.668297",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "topic": "Significado de Tanatolog\u00eda",
+        "question": "\u00bfDe qu\u00e9 vocablos griegos proviene la palabra Tanatolog\u00eda y qu\u00e9 significan?",
+        "options": [
+          {
+            "text": "Thanatos (muerte) y Logos (tratado o estudio)",
+            "is_correct": true
+          },
+          {
+            "text": "Thanatos (vida) y Logos (ciencia)",
+            "is_correct": false
+          },
+          {
+            "text": "Thanatos (dolor) y Logos (tratado)",
+            "is_correct": false
+          },
+          {
+            "text": "Thanatos (duelo) y Logos (estudio)",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La tanatolog\u00eda proviene de los vocablos griegos Thanatos, que significa muerte, y Logos, que significa tratado o estudio."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Definici\u00f3n de Tanatolog\u00eda",
+        "question": "\u00bfCu\u00e1l es el enfoque interdisciplinario principal de la Tanatolog\u00eda seg\u00fan el documento?",
+        "options": null,
+        "ideal_answer": "Disminuir el sufrimiento f\u00edsico y psicol\u00f3gico de los enfermos terminales, as\u00ed como el sufrimiento, apego y aceptaci\u00f3n de los familiares.",
+        "explanation": "La tanatolog\u00eda busca encontrar sentido al proceso de la muerte enfoc\u00e1ndose en reducir el sufrimiento f\u00edsico y psicol\u00f3gico tanto del paciente terminal como de sus seres queridos."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Objetivos de la Tanatolog\u00eda",
+        "question": "\u00bfCu\u00e1l es uno de los objetivos principales de la tanatolog\u00eda en relaci\u00f3n con el enfermo terminal y su familia?",
+        "options": [
+          {
+            "text": "Acelerar el proceso de fallecimiento mediante sedaci\u00f3n profunda.",
+            "is_correct": false
+          },
+          {
+            "text": "Conservar la calidad de vida personal y de las relaciones intrafamiliares para prepararse y dejar ir en paz.",
+            "is_correct": true
+          },
+          {
+            "text": "Evitar que los familiares experimenten cualquier tipo de duelo.",
+            "is_correct": false
+          },
+          {
+            "text": "Sustituir la atenci\u00f3n m\u00e9dica por apoyo puramente espiritual.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El objetivo principal es ayudar al paciente, su familia y amigos a conservar la calidad de vida y las relaciones para prepararse para la muerte y dejar ir en paz."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Cuidados Paliativos",
+        "question": "Seg\u00fan la OMS, \u00bfc\u00f3mo se definen los cuidados paliativos?",
+        "options": [
+          {
+            "text": "Tratamientos experimentales para curar enfermedades degenerativas.",
+            "is_correct": false
+          },
+          {
+            "text": "El cuidado activo y total de los pacientes cuando su enfermedad no responde a las medidas curativas.",
+            "is_correct": true
+          },
+          {
+            "text": "Terapias psicol\u00f3gicas enfocadas exclusivamente en los familiares del deudo.",
+            "is_correct": false
+          },
+          {
+            "text": "Procedimientos quir\u00fargicos para extender la vida a cualquier costo.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Los cuidados paliativos son el cuidado activo y total de los pacientes cuya enfermedad ya no responde a tratamientos curativos, priorizando el control del dolor y la calidad de vida."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Campo de Acci\u00f3n",
+        "question": "\u00bfQu\u00e9 \u00e1rea de la tanatolog\u00eda se encarga de encontrar sentido de vida en momentos como la jubilaci\u00f3n, viudez o cambio de estilo de vida?",
+        "options": [
+          {
+            "text": "Logoterapia",
+            "is_correct": true
+          },
+          {
+            "text": "Bio\u00e9tica",
+            "is_correct": false
+          },
+          {
+            "text": "Tanatolog\u00eda Forense",
+            "is_correct": false
+          },
+          {
+            "text": "Medicina Paliativa",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La logoterapia dentro del campo de acci\u00f3n tanatol\u00f3gico ayuda a encontrar un sentido de vida para quienes no quieren vivir como est\u00e1n pero tampoco morir."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Tipos de P\u00e9rdida",
+        "question": "Mencione tres tipos de p\u00e9rdida clasificados en el documento.",
+        "options": null,
+        "ideal_answer": "P\u00e9rdida de salud, p\u00e9rdidas materiales, p\u00e9rdida de ilusi\u00f3n o estilo de vida, y muerte de un ser querido.",
+        "explanation": "Las p\u00e9rdidas no se limitan a la muerte de alguien, sino que abarcan la salud, bienes materiales, estilo de vida, ilusiones y relaciones."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Tipos de Muerte",
+        "question": "\u00bfC\u00f3mo se define la muerte violenta seg\u00fan el documento?",
+        "options": [
+          {
+            "text": "Un proceso lento donde el organismo sufre da\u00f1os internos por vejez.",
+            "is_correct": false
+          },
+          {
+            "text": "Un proceso en el cual el organismo sufre da\u00f1os externos muy severos (accidentes, suicidios, homicidios).",
+            "is_correct": true
+          },
+          {
+            "text": "Aquella que ocurre en un periodo de tiempo extremadamente corto sin causa externa.",
+            "is_correct": false
+          },
+          {
+            "text": "La p\u00e9rdida de funciones cerebrales por enfermedades terminales.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La muerte violenta ocurre cuando el organismo sufre da\u00f1os externos muy severos, pudiendo ser causada por accidentes, suicidios y homicidios."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Miedos del Moribundo",
+        "question": "\u00bfCu\u00e1l de los siguientes es uno de los miedos comunes que experimenta el moribundo?",
+        "options": [
+          {
+            "text": "Miedo a recibir demasiada atenci\u00f3n m\u00e9dica",
+            "is_correct": false
+          },
+          {
+            "text": "Miedo a la desolaci\u00f3n, al dolor y a perder el autocontrol",
+            "is_correct": true
+          },
+          {
+            "text": "Miedo a que sus familiares hereden sus bienes",
+            "is_correct": false
+          },
+          {
+            "text": "Miedo a cumplir con sus \u00faltimas voluntades",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Los moribundos suelen experimentar temores profundos como la desolaci\u00f3n, la soledad, la p\u00e9rdida del cuerpo, el dolor y la falta de sentido en su vida."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Expectativas del Moribundo",
+        "question": "Mencione dos aspectos fundamentales que espera el moribundo de quienes le rodean.",
+        "options": null,
+        "ideal_answer": "No tener dolor f\u00edsico y sentirse amados, aceptados y escuchados.",
+        "explanation": "El moribundo espera comprensi\u00f3n, ausencia de dolor f\u00edsico, respeto a sus creencias y sentirse amado y aceptado tal como es."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Fases del Duelo",
+        "question": "\u00bfCu\u00e1les son las fases del duelo propuestas por Elisabeth K\u00fcbler-Ross?",
+        "options": [
+          {
+            "text": "Shock, Aceptaci\u00f3n, Tristeza, Olvido, Reconstrucci\u00f3n",
+            "is_correct": false
+          },
+          {
+            "text": "Negaci\u00f3n, Ira, Pacto, Depresi\u00f3n, Aceptaci\u00f3n",
+            "is_correct": true
+          },
+          {
+            "text": "Incredulidad, Negociaci\u00f3n, Culpa, Paz",
+            "is_correct": false
+          },
+          {
+            "text": "Aislamiento, Angustia, Resignaci\u00f3n, Superaci\u00f3n",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El modelo cl\u00e1sico de Elisabeth K\u00fcbler-Ross establece cinco fases en el proceso del duelo: Negaci\u00f3n, Ira, Pacto, Depresi\u00f3n y Aceptaci\u00f3n."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Fases del Duelo",
+        "question": "Durante la fase de 'Pacto' en el duelo, \u00bfcu\u00e1l suele ser la actitud del individuo?",
+        "options": [
+          {
+            "text": "Negar completamente la existencia de la enfermedad.",
+            "is_correct": false
+          },
+          {
+            "text": "Expresar enojo y culpar a otros por la situaci\u00f3n.",
+            "is_correct": false
+          },
+          {
+            "text": "Intentar negociar o prometer cambios de vida y mejora en la salud a cambio de alivio.",
+            "is_correct": true
+          },
+          {
+            "text": "Reflexionar en silencio sin mostrar ninguna emoci\u00f3n.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "En la fase de pacto, la persona intenta negociar (por ejemplo, prometiendo cambiar su estilo de vida o mejorar su salud) a cambio de sentir alivio."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Lo que s\u00ed ayuda en el Duelo",
+        "question": "\u00bfCu\u00e1l de las siguientes acciones S\u00cd ayuda a una persona que atraviesa por un duelo?",
+        "options": [
+          {
+            "text": "Aislarse emocionalmente para no molestar a los dem\u00e1s.",
+            "is_correct": false
+          },
+          {
+            "text": "Imponerse una actitud de falsa fortaleza e ignorar las necesidades f\u00edsicas.",
+            "is_correct": false
+          },
+          {
+            "text": "Hablar de lo que pas\u00f3 y compartir su sentir con personas comprensivas y cercanas.",
+            "is_correct": true
+          },
+          {
+            "text": "Utilizar sustancias psicoactivas para adormecer el dolor.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Compartir los sentimientos, hablar de lo sucedido y ser paciente con uno mismo son pr\u00e1cticas saludables para procesar el duelo."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Lo que NO ayuda en el Duelo",
+        "question": "\u00bfQu\u00e9 conducta se considera desadaptativa o que NO ayuda durante el proceso de duelo?",
+        "options": [
+          {
+            "text": "Tomar decisiones dr\u00e1sticas como casarse o cambiar de trabajo de inmediato.",
+            "is_correct": true
+          },
+          {
+            "text": "Permitirse llorar y recordar al ser querido.",
+            "is_correct": false
+          },
+          {
+            "text": "Reconocer la propia vulnerabilidad temporal.",
+            "is_correct": false
+          },
+          {
+            "text": "Buscar momentos y compa\u00f1\u00edas gratificantes.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Tomar decisiones importantes, aislarse o recurrir a sustancias durante el duelo son conductas que entorpecen la elaboraci\u00f3n sana de la p\u00e9rdida."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Conducta de Momificaci\u00f3n",
+        "question": "\u00bfEn qu\u00e9 consiste la conducta de momificaci\u00f3n dentro de las acciones que no ayudan en el duelo?",
+        "options": null,
+        "ideal_answer": "En no tocar los objetos y posesiones del muerto, promoviendo la negaci\u00f3n de la p\u00e9rdida y la falsa esperanza de que regrese.",
+        "explanation": "La momificaci\u00f3n es mantener intactas las pertenencias del difunto evitando aceptar la realidad de su ausencia."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Muerte Digna",
+        "question": "\u00bfQu\u00e9 implica fundamentalmente el concepto de 'Muerte Digna'?",
+        "options": [
+          {
+            "text": "Acelerar la muerte mediante procedimientos m\u00e9dicos invasivos.",
+            "is_correct": false
+          },
+          {
+            "text": "Proveer las mejores condiciones f\u00edsicas, psicol\u00f3gicas y sociales conservando la dignidad del individuo.",
+            "is_correct": true
+          },
+          {
+            "text": "Aislar al paciente para que muera en completa soledad.",
+            "is_correct": false
+          },
+          {
+            "text": "Ignorar los valores y creencias del paciente durante sus \u00faltimos d\u00edas.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La muerte digna busca asegurar que el paciente mantenga su respeto, congruencia de valores y bienestar hasta el \u00faltimo momento."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Comunicaci\u00f3n de Malas Noticias",
+        "question": "\u00bfQu\u00e9 significan las siglas SPIKES en el protocolo para comunicar malas noticias?",
+        "options": [
+          {
+            "text": "Setting, Perception, Invitation, Knowledge, Empathy, Summary",
+            "is_correct": true
+          },
+          {
+            "text": "Support, Pain, Illness, Key, Evaluation, Solution",
+            "is_correct": false
+          },
+          {
+            "text": "Stress, Patient, Information, Kind, Energy, Sympathy",
+            "is_correct": false
+          },
+          {
+            "text": "Symptom, Process, Interaction, Kinship, Empathy, State",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El protocolo SPIKES consta de 6 pasos en ingl\u00e9s: Entorno (Setting), Percepci\u00f3n (Perception), Invitaci\u00f3n (Invitation), Conocimiento (Knowledge), Empat\u00eda (Empathy) y Resumen (Summary)."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Comunicaci\u00f3n de Malas Noticias",
+        "question": "\u00bfQu\u00e9 m\u00e9todo en espa\u00f1ol de 6 pasos corresponde al equivalente para dar malas noticias mencionado en el documento?",
+        "options": [
+          {
+            "text": "M\u00e9todo ABCDE",
+            "is_correct": false
+          },
+          {
+            "text": "Protocolo EPICEE (Entorno, Percepci\u00f3n, Invitaci\u00f3n, Comunicar, Empat\u00eda, Estrategia)",
+            "is_correct": true
+          },
+          {
+            "text": "Modelo K\u00fcbler-Ross",
+            "is_correct": false
+          },
+          {
+            "text": "Escala de Cuidados Paliativos",
+            "is_correct": false
+          }
+        ],
+        "explanation": "EPICEE agrupa los pasos: Entorno, Percepci\u00f3n del paciente, Invitaci\u00f3n, Comunicar, Empat\u00eda y Estrategia."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Noticias en Ni\u00f1os",
+        "question": "Mencione dos recomendaciones sobre lo que NO se debe hacer al dar una mala noticia a un ni\u00f1o.",
+        "options": null,
+        "ideal_answer": "No esperar demasiado tiempo para contarla y evitar decirle mentiras como que la persona se fue de viaje o est\u00e1 dormida.",
+        "explanation": "A los ni\u00f1os no se les debe ocultar la verdad con historias falsas ni retrasar la noticia, ya que esto genera mayor confusi\u00f3n y ansiedad."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Autocuidado del Personal",
+        "question": "\u00bfPor qu\u00e9 es importante que las personas que comunican malas noticias cuiden su propia salud f\u00edsica y emocional?",
+        "options": [
+          {
+            "text": "Porque dar malas noticias es emocionalmente exigente y desgastante.",
+            "is_correct": true
+          },
+          {
+            "text": "Porque as\u00ed evitar\u00e1n contagiarse de la enfermedad del paciente.",
+            "is_correct": false
+          },
+          {
+            "text": "Para cumplir con un requisito administrativo del hospital.",
+            "is_correct": false
+          },
+          {
+            "text": "Para demostrar superioridad profesional ante los familiares.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Dar malas noticias desgasta emocionalmente, por lo que el profesional o cuidador debe descansar, alimentarse bien y expresar sus sentimientos para sanar."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Protocolos M\u00e9dicos",
+        "question": "\u00bfQu\u00e9 autores desarrollaron el protocolo alternativo 'ABCDE' para dar malas noticias en la Universidad de San Francisco?",
+        "options": [
+          {
+            "text": "Elisabeth K\u00fcbler-Ross y Jorge Bucay",
+            "is_correct": false
+          },
+          {
+            "text": "Rabow y McPhee",
+            "is_correct": true
+          },
+          {
+            "text": "Buckman y Nancy Connor",
+            "is_correct": false
+          },
+          {
+            "text": "Ram\u00edrez-Ib\u00e1\u00f1ez y Ram\u00edrez-de la Roche",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El protocolo ABCDE fue desarrollado por Rabow y McPhee, enfoc\u00e1ndose en la preparaci\u00f3n, creaci\u00f3n de entorno, comunicaci\u00f3n, tratamiento de reacciones y validaci\u00f3n de emociones."
+      }
+    ],
+    "user_id": "ricardo@icloud.com"
+  },
+  "5bf036fa-55c3-4ab5-932d-140fa2ea986d": {
+    "id": "5bf036fa-55c3-4ab5-932d-140fa2ea986d",
+    "name": "Comunidad",
+    "date": "2026-10-11T12:48:59.586419",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "topic": "Diagn\u00f3stico de Menopausia",
+        "question": "De acuerdo con la gu\u00eda, \u00bfc\u00f3mo se establece formalmente el diagn\u00f3stico de menopausia en una mujer con \u00fatero?",
+        "options": [
+          {
+            "text": "Por la ausencia de menstruaci\u00f3n por 12 meses o m\u00e1s.",
+            "is_correct": true
+          },
+          {
+            "text": "Por niveles de FSH superiores a 10 UI/L \u00fanicamente.",
+            "is_correct": false
+          },
+          {
+            "text": "Por la presencia de s\u00edntomas vasomotores severos durante 6 meses.",
+            "is_correct": false
+          },
+          {
+            "text": "Por un ultrasonido p\u00e9lvico con atrofia endometrial.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El diagn\u00f3stico de menopausia es cl\u00ednico y se establece ante la ausencia de menstruaci\u00f3n por un periodo de 12 meses o m\u00e1s en mujeres con \u00fatero."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Clasificaci\u00f3n STRAW",
+        "question": "\u00bfCu\u00e1l es la utilidad principal de la clasificaci\u00f3n conocida como 'STRAW' en la salud femenina?",
+        "options": [
+          {
+            "text": "Estimar el riesgo de c\u00e1ncer de mama en pacientes postmenop\u00e1usicas.",
+            "is_correct": false
+          },
+          {
+            "text": "Entender la cronolog\u00eda del envejecimiento reproductivo de la mujer y sus etapas.",
+            "is_correct": true
+          },
+          {
+            "text": "Determinar la dosis exacta de terapia hormonal de reemplazo.",
+            "is_correct": false
+          },
+          {
+            "text": "Evaluar la densidad mineral \u00f3sea sin necesidad de densitometr\u00eda.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La clasificaci\u00f3n STRAW permite entender la cronolog\u00eda del envejecimiento reproductivo, abarcando ciclos, s\u00edntomas y marcadores endocrinos para detectar el diagn\u00f3stico de cada etapa."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Hormona Fol\u00edculo Estimulante",
+        "question": "\u00bfQu\u00e9 nivel de Hormona Fol\u00edculo Estimulante (FSH) se observa com\u00fanmente en la transici\u00f3n a la menopausia y postmenopausia?",
+        "options": [
+          {
+            "text": "Niveles arriba de 25 UI/L.",
+            "is_correct": true
+          },
+          {
+            "text": "Niveles menores de 5 UI/L.",
+            "is_correct": false
+          },
+          {
+            "text": "Niveles estables entre 10 y 15 UI/L.",
+            "is_correct": false
+          },
+          {
+            "text": "Niveles indetectables durante todo el ciclo.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Los niveles superiores a 25 UI/L de FSH son caracter\u00edsticos de la transici\u00f3n a la menopausia y postmenopausia, \u00fatiles ante dudas diagn\u00f3sticas."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Tratamiento Farmacol\u00f3gico",
+        "question": "De acuerdo con las gu\u00edas, \u00bfcu\u00e1l es el tratamiento farmacol\u00f3gico de primera l\u00ednea aceptado para el control de las alteraciones cl\u00ednicas del climaterio?",
+        "options": [
+          {
+            "text": "Fitoterapia y suplementos de isoflavonas de soya.",
+            "is_correct": false
+          },
+          {
+            "text": "Inhibidores de la recaptura de serotonina y norepinefrina exclusivamente.",
+            "is_correct": false
+          },
+          {
+            "text": "Tratamiento hormonal (estr\u00f3genos o estr\u00f3genos-progest\u00e1genos) o no hormonal si hay contraindicaci\u00f3n.",
+            "is_correct": true
+          },
+          {
+            "text": "Hormonas bioid\u00e9nticas no probadas.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El tratamiento hormonal (estr\u00f3genos solos o combinados) o los f\u00e1rmacos no hormonales de primera l\u00ednea (como ciertos antidepresivos o clonidina ante contraindicaciones) son el est\u00e1ndar inicial."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Contraindicaciones TH",
+        "question": "Se\u00f1ale cu\u00e1l de las siguientes opciones representa una contraindicaci\u00f3n absoluta para el uso de Terapia Hormonal:",
+        "options": [
+          {
+            "text": "Antecedentes de cefalea tensional leve.",
+            "is_correct": false
+          },
+          {
+            "text": "Porfiria cut\u00e1nea.",
+            "is_correct": true
+          },
+          {
+            "text": "Hipertensi\u00f3n arterial controlada.",
+            "is_correct": false
+          },
+          {
+            "text": "Obesidad grado I sin comorbilidades.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La porfiria cut\u00e1nea se clasifica expl\u00edcitamente como una contraindicaci\u00f3n absoluta para la administraci\u00f3n de terapia hormonal."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Funci\u00f3n de Progest\u00e1genos",
+        "question": "\u00bfCu\u00e1l es la principal funci\u00f3n de los progest\u00e1genos al ser administrados junto con estr\u00f3genos en mujeres con \u00fatero intacto?",
+        "options": [
+          {
+            "text": "Incrementar los niveles de estr\u00f3geno circulante en sangre.",
+            "is_correct": false
+          },
+          {
+            "text": "Prevenir los sofocos nocturnos de manera exclusiva.",
+            "is_correct": false
+          },
+          {
+            "text": "Proteger el endometrio para reducir el riesgo de hiperplasia o c\u00e1ncer endometrial.",
+            "is_correct": true
+          },
+          {
+            "text": "Evitar la ganancia de peso corporal en la postmenopausia.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El uso de estr\u00f3genos sin oposici\u00f3n progestacional aumenta dr\u00e1sticamente el riesgo de c\u00e1ncer endometrial, por lo que el progest\u00e1geno cumple una funci\u00f3n protectora esencial."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "V\u00eda Transd\u00e9rmica",
+        "question": "\u00bfQu\u00e9 ventaja principal ofrece la administraci\u00f3n transd\u00e9rmica de estr\u00f3genos frente a la v\u00eda oral en pacientes con ciertos factores de riesgo?",
+        "options": [
+          {
+            "text": "Evita el efecto hep\u00e1tico de primer paso y reduce significativamente el riesgo de tromboembolismo.",
+            "is_correct": true
+          },
+          {
+            "text": "Eleva notablemente los niveles de colesterol HDL por encima de la v\u00eda oral.",
+            "is_correct": false
+          },
+          {
+            "text": "Elimina por completo la necesidad de usar progest\u00e1genos en mujeres con \u00fatero.",
+            "is_correct": false
+          },
+          {
+            "text": "Garantiza una absorci\u00f3n id\u00e9ntica a la producci\u00f3n ov\u00e1rica natural sin variaciones.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La v\u00eda transd\u00e9rmica evita el efecto hep\u00e1tico de primer paso, mostrando menor riesgo de tromboembolismo e impacto neutro sobre triglic\u00e9ridos en comparaci\u00f3n con la v\u00eda oral."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Hormonas Bioid\u00e9nticas",
+        "question": "De acuerdo con las recomendaciones de la gu\u00eda, \u00bfcu\u00e1l es la postura actual sobre el uso de las llamadas hormonas 'bioid\u00e9nticas' o 'naturales'?",
+        "options": [
+          {
+            "text": "Son el tratamiento de elecci\u00f3n por su alta seguridad comprobada en ensayos cl\u00ednicos.",
+            "is_correct": false
+          },
+          {
+            "text": "Se consideran productos no probados en ensayos cl\u00ednicos de calidad y no est\u00e1n recomendadas.",
+            "is_correct": true
+          },
+          {
+            "text": "Est\u00e1n exentas de cualquier efecto adverso celular o vascular.",
+            "is_correct": false
+          },
+          {
+            "text": "Se recomiendan exclusivamente en presentaci\u00f3n oral de alta dosis.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Las hormonas bioid\u00e9nticas son preparaciones no evaluadas rigurosamente en dosis y eficacia mediante ensayos cl\u00ednicos de calidad, por lo que no se recomienda su uso formal."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Ventana de Oportunidad",
+        "question": "\u00bfA qu\u00e9 se refiere principalmente la 'ventana de oportunidad' en el manejo de la terapia hormonal en la mujer?",
+        "options": [
+          {
+            "text": "Iniciar el tratamiento en pacientes mayores de 70 a\u00f1os para recuperar masa \u00f3sea.",
+            "is_correct": false
+          },
+          {
+            "text": "Iniciar el tratamiento en la perimenopausia o menores de 60 a\u00f1os para maximizar beneficios cardiovasculares antes de cambios vasculares avanzados.",
+            "is_correct": true
+          },
+          {
+            "text": "Suspender los medicamentos inmediatamente despu\u00e9s de 3 meses de uso continuo.",
+            "is_correct": false
+          },
+          {
+            "text": "Aplicar estr\u00f3genos locales \u00fanicamente tras la aparici\u00f3n de s\u00edntomas cardiovasculares graves.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La ventana de oportunidad abarca la perimenopausia o mujeres menores de 60 a\u00f1os, donde el beneficio cardiovascular es favorable si se inicia antes de que se establezcan cambios vasculares degenerativos."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Efectos Adversos TH",
+        "question": "Entre las evidencias cient\u00edficas sobre los efectos adversos de la Terapia Hormonal, \u00bfcu\u00e1les son los riesgos m\u00e1s relevantes identificados?",
+        "options": [
+          {
+            "text": "C\u00e1ncer de mama, accidentes cardiovasculares, accidentes cerebrovasculares y eventos tromb\u00f3ticos.",
+            "is_correct": true
+          },
+          {
+            "text": "Insuficiencia renal cr\u00f3nica y hepatitis fulminante autoinmune.",
+            "is_correct": false
+          },
+          {
+            "text": "Hipotiroidismo primario y anemia perniciosa severa.",
+            "is_correct": false
+          },
+          {
+            "text": "Diabetes mellitus tipo 1 de inicio tard\u00edo.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Los riesgos mayores asociados a la terapia hormonal comprenden el c\u00e1ncer de mama, eventos tromb\u00f3ticos, accidentes cardiovasculares y vasculares cerebrales."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Factores de Riesgo",
+        "question": "De los siguientes factores relacionados con los s\u00edntomas vasomotores, \u00bfcu\u00e1l se clasifica como un factor modificable?",
+        "options": [
+          {
+            "text": "Pertenecer a la raza afroamericana.",
+            "is_correct": false
+          },
+          {
+            "text": "Haber presentado una menopausia de inicio abrupto o inducida.",
+            "is_correct": false
+          },
+          {
+            "text": "La obesidad, el tabaquismo y el sedentarismo.",
+            "is_correct": true
+          },
+          {
+            "text": "La presencia de padecimientos cr\u00f3nicos de base gen\u00e9tica.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Los factores modificables incluyen el tabaquismo, la obesidad, el sedentarismo y la presencia de ansiedad o depresi\u00f3n, los cuales pueden ser intervenidos."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Evaluaci\u00f3n Integral",
+        "question": "Dentro de la evaluaci\u00f3n integral de la mujer en etapa climat\u00e9rica, \u00bfcu\u00e1l de los siguientes estudios es parte de los requerimientos iniciales b\u00e1sicos?",
+        "options": [
+          {
+            "text": "Biopsia hep\u00e1tica percut\u00e1nea anual.",
+            "is_correct": false
+          },
+          {
+            "text": "Citolog\u00eda cervicovaginal, perfil de l\u00edpidos, glucosa s\u00e9rica y mastograf\u00eda basal.",
+            "is_correct": true
+          },
+          {
+            "text": "Resonancia magn\u00e9tica cerebral de rutina.",
+            "is_correct": false
+          },
+          {
+            "text": "Cateterismo card\u00edaco diagn\u00f3stico.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La evaluaci\u00f3n integral incluye citolog\u00eda cervicovaginal, perfil de l\u00edpidos, glucosa s\u00e9rica, mastograf\u00eda, ultrasonido p\u00e9lvico, EGO y TSH s\u00e9rica."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Duraci\u00f3n de la TH",
+        "question": "Respecto a la duraci\u00f3n de la Terapia Hormonal, \u00bfqu\u00e9 se\u00f1alan las directrices actuales de la gu\u00eda?",
+        "options": [
+          {
+            "text": "Existe una limitaci\u00f3n obligatoria estricta que proh\u00edbe usarla por m\u00e1s de 12 meses en cualquier caso.",
+            "is_correct": false
+          },
+          {
+            "text": "No hay razones para imponer limitaciones obligatorias a su duraci\u00f3n; debe individualizarse seg\u00fan el perfil cl\u00ednico y la relaci\u00f3n riesgo-beneficio.",
+            "is_correct": true
+          },
+          {
+            "text": "Debe administrarse de por vida obligatoriamente a todas las mujeres mayores de 50 a\u00f1os.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "No existen limitaciones obligatorias universales; la duraci\u00f3n se individualiza valorando riesgos y beneficios, prefiriendo periodos cortos o prolongados seg\u00fan la dosis y condici\u00f3n."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Tratamiento No Hormonal",
+        "question": "\u00bfEn qu\u00e9 circunstancias est\u00e1 indicada principalmente la terapia no hormonal para el control de s\u00edntomas vasomotores?",
+        "options": [
+          {
+            "text": "Cuando existe contraindicaci\u00f3n para la terapia hormonal o la paciente no la acepta.",
+            "is_correct": true
+          },
+          {
+            "text": "Como primera l\u00ednea absoluta en mujeres menores de 40 a\u00f1os con \u00fatero \u00edntegro.",
+            "is_correct": false
+          },
+          {
+            "text": "Unicamente cuando se busca inducir un embarazo tard\u00edo.",
+            "is_correct": false
+          },
+          {
+            "text": "Para tratar exclusivamente la osteoporosis severa establecida.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Los f\u00e1rmacos no hormonales y la fitoterapia se reservan como alternativa de segunda l\u00ednea cuando hay contraindicaciones para la TH o la paciente rechaza el tratamiento hormonal."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Veraliprida",
+        "question": "Respecto al uso de veraliprida como tratamiento no hormonal, \u00bfqu\u00e9 se\u00f1alan las recomendaciones de seguridad de COFEPRIS y autoridades sanitarias?",
+        "options": [
+          {
+            "text": "Se puede usar de manera indiscriminada y sin supervisi\u00f3n m\u00e9dica.",
+            "is_correct": false
+          },
+          {
+            "text": "Debe indicarse s\u00f3lo para crisis vasomotoras bajo esquemas estrictos (ej. 100 mg por 20 d\u00edas con 10 de descanso) por riesgo de discinesias y efectos extrapiramidales.",
+            "is_correct": true
+          },
+          {
+            "text": "Es el f\u00e1rmaco de primera elecci\u00f3n universal disponible obligatoriamente en todas las instituciones de salud.",
+            "is_correct": false
+          },
+          {
+            "text": "No presenta ning\u00fan tipo de efecto secundario neurol\u00f3gico relevante.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La veraliprida posee un perfil de efectos adversos neurol\u00f3gicos serios (como s\u00edndrome parkinsoniano o discinesias), requiriendo uso restringido, esquemas espec\u00edficos y vigilancia estrecha."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Fitoterapia",
+        "question": "\u00bfQu\u00e9 se debe advertir a las pacientes sobre el uso de productos de fitoterapia (como isoflavonas de soya) para los s\u00edntomas menop\u00e1usicos?",
+        "options": [
+          {
+            "text": "Que poseen una eficacia superior y comprobada frente a la terapia hormonal combinada.",
+            "is_correct": false
+          },
+          {
+            "text": "Que tienen evidencia limitada en seguridad y eficacia, y muchos no entran como productos regulados con control sanitario estricto.",
+            "is_correct": true
+          },
+          {
+            "text": "Que eliminan por completo el riesgo de fracturas por osteoporosis en el 100% de los casos.",
+            "is_correct": false
+          },
+          {
+            "text": "Que requieren prescripci\u00f3n hospitalaria de alta especialidad obligatoria.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La evidencia sobre fitoterapia es limitada y sus productos suelen carecer de regulaci\u00f3n sanitaria rigurosa, por lo que deben advertirse sus posibles efectos y limitaciones."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Criterios de Referencia",
+        "question": "Indique una causa correcta para referir a una paciente en perimenopausia o postmenopausia del primer al segundo nivel de atenci\u00f3n:",
+        "options": [
+          {
+            "text": "Presentar s\u00edntomas vasomotores leves controlados con dieta.",
+            "is_correct": false
+          },
+          {
+            "text": "Sospecha de miomatosis uterina, hiperplasia endometrial, c\u00e1ncer c\u00e9rvicouterino u ov\u00e1rico, o contraindicaci\u00f3n de TH.",
+            "is_correct": true
+          },
+          {
+            "text": "Haber cumplido 50 a\u00f1os de edad sin sintomatolog\u00eda cl\u00ednica.",
+            "is_correct": false
+          },
+          {
+            "text": "Deseo de iniciar un estilo de vida con ejercicio aer\u00f3bico.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Las patolog\u00edas agregadas sospechosas (como miomatosis, hiperplasia, neoplasias), la falta de respuesta al tratamiento o las contraindicaciones absolutas justifican la referencia al especialista."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Vigilancia y Seguimiento",
+        "question": "\u00bfCu\u00e1l es la recomendaci\u00f3n general en cuanto al tiempo de vigilancia estrecha tras el inicio de una terapia hormonal?",
+        "options": [
+          {
+            "text": "Vigilar los primeros 3 a 6 meses para evaluar eficacia, tolerancia y detectar reacciones adversas precoces.",
+            "is_correct": true
+          },
+          {
+            "text": "Realizar una \u00fanica cita a los 5 a\u00f1os de haber iniciado el tratamiento.",
+            "is_correct": false
+          },
+          {
+            "text": "Suspender los controles m\u00e9dicos si la paciente no reporta bochornos en la primera semana.",
+            "is_correct": false
+          },
+          {
+            "text": "Hacer ex\u00e1menes de laboratorio semanales de por vida de forma obligatoria.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El seguimiento estrecho durante los primeros 3 a 6 meses permite corroborar la efectividad y la tolerancia del f\u00e1rmaco, previniendo el abandono temprano por efectos secundarios leves."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Definici\u00f3n de Menopausia",
+        "question": "Seg\u00fan el documento, \u00bfc\u00f3mo se define formalmente el concepto de menopausia en la vida de la mujer?",
+        "ideal_answer": "Evento o etapa en la vida de la mujer que marca el final de la vida reproductiva, identific\u00e1ndose objetivamente por la ausencia de menstruaci\u00f3n despu\u00e9s de 12 meses, consider\u00e1ndose natural o fisiol\u00f3gica a partir de los 40 a\u00f1os de edad.",
+        "explanation": "La menopausia marca el cese reproductivo definitivo y se diagnostica retrospectivamente tras 12 meses consecutivos de amenorrea."
+      },
+      {
+        "type": "open_ended",
+        "topic": "S\u00edndrome Climat\u00e9rico",
+        "question": "\u00bfQu\u00e9 comprende el denominado s\u00edndrome climat\u00e9rico de acuerdo con la secci\u00f3n de definiciones de la gu\u00eda?",
+        "ideal_answer": "Es el conjunto de signos y s\u00edntomas que se presentan en la perimenopausia y posmenopausia, el cual incluye s\u00edntomas vasomotores, alteraciones del sue\u00f1o, alteraciones psicol\u00f3gicas y atrofia genital.",
+        "explanation": "El s\u00edndrome climat\u00e9rico agrupa las diversas manifestaciones cl\u00ednicas derivadas del d\u00e9ficit estrog\u00e9nico durante el climaterio."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Hormona Antim\u00fclleriana",
+        "question": "\u00bfQu\u00e9 expresa la medici\u00f3n de la hormona antim\u00fclleriana (HAM) en relaci\u00f3n con la funci\u00f3n ov\u00e1rica?",
+        "ideal_answer": "Es producida por la granulosa folicular y expresa el reclutamiento folicular o la reserva folicular ov\u00e1rica; a menor n\u00famero de fol\u00edculos, menores niveles de HAM en sangre durante la transici\u00f3n a la menopausia.",
+        "explanation": "La HAM sirve como marcador biol\u00f3gico de la reserva ov\u00e1rica y disminuye progresivamente conforme avanza la declinaci\u00f3n folicular."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Estilo de Vida Saludable",
+        "question": "Mencione al menos tres recomendaciones sobre el estilo de vida que el personal de salud debe fomentar para prevenir complicaciones en mujeres climat\u00e9ricas.",
+        "ideal_answer": "Realizar ejercicio f\u00edsico regular, mantener el control de peso (equilibrio cal\u00f3rico), reducci\u00f3n del tabaquismo o consumo moderado de alcohol, y llevar una alimentaci\u00f3n rica en calcio y baja en grasas saturadas.",
+        "explanation": "Las modificaciones en el estilo de vida son pilares fundamentales en la prevenci\u00f3n primaria de la osteoporosis y la reducci\u00f3n de s\u00edntomas vasomotores."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Funci\u00f3n del Progest\u00e1geno",
+        "question": "Explique brevemente por qu\u00e9 es indispensable el uso combinado de progest\u00e1genos en mujeres con \u00fatero que reciben terapia estrog\u00e9nica.",
+        "ideal_answer": "Porque su funci\u00f3n principal es la protecci\u00f3n endometrial; el uso de terapia estrog\u00e9nica simple o sola en mujeres con \u00fatero incrementa significativamente el riesgo de hiperplasia y c\u00e1ncer de endometrio.",
+        "explanation": "Administrar estr\u00f3genos sin oposici\u00f3n en pacientes con \u00fatero estimula excesivamente el tejido endometrial, requiriendo un progest\u00e1geno para contrarrestar dicho riesgo."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Criterios de Contra-referencia",
+        "question": "\u00bfCu\u00e1les son las condiciones establecidas para llevar a cabo la contra-referencia de una paciente del segundo al primer nivel de atenci\u00f3n?",
+        "ideal_answer": "Cuando exista un control adecuado con el tratamiento establecido por el especialista o cuando la paciente manifieste falta de aceptaci\u00f3n hacia la Terapia Hormonal.",
+        "explanation": "Una vez estabilizada la paciente y verificado su r\u00e9gimen terap\u00e9utico, el manejo puede retornar al primer nivel de atenci\u00f3n m\u00e9dica para su seguimiento peri\u00f3dico."
+      }
+    ],
+    "user_id": "ricardo@icloud.com"
+  },
+  "721dd989-0f64-4b20-8f77-6552d9923327": {
+    "id": "721dd989-0f64-4b20-8f77-6552d9923327",
+    "user_id": "amigo@icloud.com",
+    "name": "Biolog\u00eda Celular",
+    "date": "2026-10-11T13:21:53.638322",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "topic": "Funci\u00f3n mitocondrial",
+        "question": "\u00bfCu\u00e1l es la funci\u00f3n principal de la mitocondria en la c\u00e9lula eucariota?",
+        "options": [
+          {
+            "text": "Producir ATP",
+            "is_correct": true
+          },
+          {
+            "text": "Sintetizar prote\u00ednas estructurales",
+            "is_correct": false
+          },
+          {
+            "text": "Almacenar informaci\u00f3n gen\u00e9tica",
+            "is_correct": false
+          },
+          {
+            "text": "Degradar desechos celulares",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La mitocondria act\u00faa como la central energ\u00e9tica de la c\u00e9lula eucariota, siendo su funci\u00f3n principal la producci\u00f3n de ATP. Es fundamental recordar este rol metab\u00f3lico central."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Tipo celular",
+        "question": "\u00bfEn qu\u00e9 tipo de c\u00e9lula se encuentra la mitocondria seg\u00fan el texto proporcionado?",
+        "options": [
+          {
+            "text": "C\u00e9lula procariota",
+            "is_correct": false
+          },
+          {
+            "text": "C\u00e9lula eucariota",
+            "is_correct": true
+          },
+          {
+            "text": "Virus",
+            "is_correct": false
+          },
+          {
+            "text": "C\u00e9lula bacteriana",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Las mitocondrias son organelos caracter\u00edsticos de las c\u00e9lulas eucariotas. Recuerda que las procariotas carecen de este tipo de organelos membranosos."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Central energ\u00e9tica",
+        "question": "Explique por qu\u00e9 se le denomina a la mitocondria la 'central energ\u00e9tica' de la c\u00e9lula.",
+        "options": null,
+        "ideal_answer": "Se le denomina central energ\u00e9tica porque es el org\u00e1nulo encargado de producir ATP, la mol\u00e9cula que provee la energ\u00eda necesaria para los procesos celulares.",
+        "explanation": "La respuesta se basa en la capacidad de la mitocondria para generar trifosfato de adenosina (ATP), combustible esencial para el metabolismo celular."
+      }
+    ],
+    "documents_count": 1
+  },
+  "d6c8da14-bea0-4fad-b744-d06b599add2e": {
+    "id": "d6c8da14-bea0-4fad-b744-d06b599add2e",
+    "user_id": "ricardo@icloud.com",
+    "name": "Salud 1parcial",
+    "date": "2026-10-13T19:40:16.051653",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "topic": "Definici\u00f3n Salud P\u00fablica",
+        "question": "\u00bfCu\u00e1l es el objetivo fundamental de la salud p\u00fablica seg\u00fan el informe Acheson de 1987?",
+        "options": [
+          {
+            "text": "Curar enfermedades mediante tecnolog\u00eda avanzada.",
+            "is_correct": false
+          },
+          {
+            "text": "Prevenir enfermedades, promover la salud y prolongar la vida mediante esfuerzos organizados.",
+            "is_correct": true
+          },
+          {
+            "text": "Garantizar la atenci\u00f3n m\u00e9dica gratuita para todos los ciudadanos.",
+            "is_correct": false
+          },
+          {
+            "text": "Reducir el gasto farmac\u00e9utico en los pa\u00edses desarrollados.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El informe Acheson define la salud p\u00fablica como el arte y la ciencia de prevenir enfermedades, promover la salud y prolongar la vida mediante esfuerzos organizados de la sociedad."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Medicina Preventiva",
+        "question": "\u00bfCu\u00e1l es el objetivo principal de la medicina preventiva moderna?",
+        "options": [
+          {
+            "text": "La prevenci\u00f3n de la enfermedad mediante intervenciones y consejos m\u00e9dicos en el \u00e1mbito cl\u00ednico.",
+            "is_correct": true
+          },
+          {
+            "text": "La gesti\u00f3n de pol\u00edticas p\u00fablicas de vivienda y urbanismo.",
+            "is_correct": false
+          },
+          {
+            "text": "La erradicaci\u00f3n de la pobreza como causa de enfermedad.",
+            "is_correct": false
+          },
+          {
+            "text": "La investigaci\u00f3n b\u00e1sica sobre el genoma humano.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La medicina preventiva se centra en la prevenci\u00f3n de la enfermedad mediante intervenciones aplicadas por m\u00e9dicos y su equipo en el \u00e1mbito cl\u00ednico asistencial."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Concepto de Salud",
+        "question": "\u00bfQu\u00e9 elemento a\u00f1adi\u00f3 Milton Terris a la definici\u00f3n de salud de la OMS para hacerla m\u00e1s operativa?",
+        "options": [
+          {
+            "text": "La ausencia total de malestar f\u00edsico.",
+            "is_correct": false
+          },
+          {
+            "text": "La capacidad de funcionamiento.",
+            "is_correct": true
+          },
+          {
+            "text": "El bienestar econ\u00f3mico del individuo.",
+            "is_correct": false
+          },
+          {
+            "text": "La ausencia de enfermedades gen\u00e9ticas.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Terris a\u00f1adi\u00f3 la 'capacidad de funcionamiento' para eliminar el t\u00e9rmino 'completo' de la definici\u00f3n de la OMS, permitiendo medir el grado de salud de forma din\u00e1mica."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Determinantes de Salud",
+        "question": "Seg\u00fan el esquema de Marc Lalonde, \u00bfcu\u00e1l de estos grupos tiene mayor influencia en la salud?",
+        "options": [
+          {
+            "text": "Biolog\u00eda humana.",
+            "is_correct": false
+          },
+          {
+            "text": "Medio ambiente.",
+            "is_correct": false
+          },
+          {
+            "text": "Estilos de vida y conductas de salud.",
+            "is_correct": true
+          },
+          {
+            "text": "Sistema de asistencia sanitaria.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El esquema de Lalonde identifica los estilos de vida y conductas de salud como el grupo con mayor influencia en la salud de la poblaci\u00f3n."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Desigualdades en Salud",
+        "question": "\u00bfQu\u00e9 se entiende por 'desigualdades en salud' seg\u00fan el texto?",
+        "options": [
+          {
+            "text": "Variaciones biol\u00f3gicas naturales entre hombres y mujeres.",
+            "is_correct": false
+          },
+          {
+            "text": "Diferencias injustas y evitables en el estado de salud derivadas de determinantes sociales.",
+            "is_correct": true
+          },
+          {
+            "text": "Diferencias en la esperanza de vida debidas exclusivamente a la gen\u00e9tica.",
+            "is_correct": false
+          },
+          {
+            "text": "La distribuci\u00f3n aleatoria de enfermedades en una poblaci\u00f3n.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Las desigualdades en salud son variaciones injustas y evitables que escapan a la capacidad volitiva del individuo, derivadas de determinantes sociales como la clase o el g\u00e9nero."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Bio\u00e9tica",
+        "question": "\u00bfCu\u00e1l es el objeto formal de la bio\u00e9tica?",
+        "options": [
+          {
+            "text": "El estudio de la biolog\u00eda celular.",
+            "is_correct": false
+          },
+          {
+            "text": "Determinar si las acciones del hombre sobre la vida son buenas o le producen da\u00f1o.",
+            "is_correct": true
+          },
+          {
+            "text": "La creaci\u00f3n de nuevas tecnolog\u00edas m\u00e9dicas.",
+            "is_correct": false
+          },
+          {
+            "text": "La gesti\u00f3n econ\u00f3mica de los hospitales.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El objeto formal de la bio\u00e9tica es evaluar si las acciones humanas sobre la vida son \u00e9ticamente correctas o si causan da\u00f1o al hombre, la humanidad o las generaciones futuras."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Modelos Bio\u00e9ticos",
+        "question": "\u00bfQu\u00e9 caracteriza al modelo utilitarista en bio\u00e9tica?",
+        "options": [
+          {
+            "text": "La defensa de la dignidad intr\u00ednseca de la persona.",
+            "is_correct": false
+          },
+          {
+            "text": "La medici\u00f3n de la bondad de una acci\u00f3n por sus consecuencias.",
+            "is_correct": true
+          },
+          {
+            "text": "El respeto absoluto a la autonom\u00eda del paciente sin considerar consecuencias.",
+            "is_correct": false
+          },
+          {
+            "text": "La jerarquizaci\u00f3n de los principios de no maleficencia y justicia.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El utilitarismo, o consecuencialismo, mide la bondad de una acci\u00f3n bas\u00e1ndose exclusivamente en sus resultados, buscando maximizar el bien para el mayor n\u00famero de personas."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Principios Bio\u00e9ticos",
+        "question": "Seg\u00fan Diego Gracia, \u00bfqu\u00e9 principios bio\u00e9ticos tienen un rango superior y obligan con independencia de la voluntad de las personas?",
+        "options": [
+          {
+            "text": "Autonom\u00eda y beneficencia.",
+            "is_correct": false
+          },
+          {
+            "text": "No maleficencia y justicia.",
+            "is_correct": true
+          },
+          {
+            "text": "Justicia y autonom\u00eda.",
+            "is_correct": false
+          },
+          {
+            "text": "Beneficencia y no maleficencia.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Diego Gracia propone que la no maleficencia y la justicia son principios de primer nivel que obligan universalmente, siendo garantes de la igualdad y el respeto b\u00e1sico."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Promoci\u00f3n de la Salud",
+        "question": "\u00bfQu\u00e9 es la 'promoci\u00f3n de la salud'?",
+        "options": [
+          {
+            "text": "Un proceso para incrementar el control sobre los determinantes de la salud y mejorarla.",
+            "is_correct": true
+          },
+          {
+            "text": "La aplicaci\u00f3n exclusiva de vacunas y cribados.",
+            "is_correct": false
+          },
+          {
+            "text": "La curaci\u00f3n de enfermedades cr\u00f3nicas en hospitales.",
+            "is_correct": false
+          },
+          {
+            "text": "La gesti\u00f3n de seguros m\u00e9dicos privados.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La promoci\u00f3n de la salud es un proceso pol\u00edtico y social global que permite a las personas incrementar el control sobre los determinantes de su salud para mejorarla."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Estrategias Preventivas",
+        "question": "\u00bfEn qu\u00e9 consiste la 'estrategia poblacional' de prevenci\u00f3n seg\u00fan Geoffrey Rose?",
+        "options": [
+          {
+            "text": "Dirigirse solo a personas con niveles muy altos de riesgo.",
+            "is_correct": false
+          },
+          {
+            "text": "Desplazar toda la curva de exposici\u00f3n de un factor de riesgo hacia niveles m\u00e1s bajos.",
+            "is_correct": true
+          },
+          {
+            "text": "Tratar \u00fanicamente a pacientes con enfermedades ya diagnosticadas.",
+            "is_correct": false
+          },
+          {
+            "text": "Centrarse en la investigaci\u00f3n gen\u00e9tica individual.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La estrategia poblacional busca mover el riesgo medio de toda la poblaci\u00f3n, evitando m\u00e1s casos al actuar sobre el gran contingente de personas con niveles moderados de exposici\u00f3n."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Paradoja de la Prevenci\u00f3n",
+        "question": "\u00bfQu\u00e9 describe la 'paradoja de la prevenci\u00f3n'?",
+        "options": [
+          {
+            "text": "Que las medidas preventivas son siempre m\u00e1s caras que las curativas.",
+            "is_correct": false
+          },
+          {
+            "text": "Que hay que actuar sobre muchos para beneficiar a muy pocos.",
+            "is_correct": true
+          },
+          {
+            "text": "Que la prevenci\u00f3n aumenta la incidencia de enfermedades.",
+            "is_correct": false
+          },
+          {
+            "text": "Que los individuos sanos no necesitan prevenci\u00f3n.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La paradoja consiste en que, al aplicar estrategias poblacionales, se requiere intervenir sobre muchas personas para que solo unas pocas obtengan un beneficio directo."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Determinantes Distales",
+        "question": "\u00bfQu\u00e9 son los 'determinantes distales' de enfermedad?",
+        "options": [
+          {
+            "text": "Factores gen\u00e9ticos inmediatos.",
+            "is_correct": false
+          },
+          {
+            "text": "Ra\u00edces culturales y sociol\u00f3gicas que perpet\u00faan estilos de vida insanos.",
+            "is_correct": true
+          },
+          {
+            "text": "La falta de acceso a medicamentos b\u00e1sicos.",
+            "is_correct": false
+          },
+          {
+            "text": "La exposici\u00f3n directa a t\u00f3xicos ambientales.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Los determinantes distales son las ra\u00edces culturales y sociales que influyen en los comportamientos y estructuras que, a su vez, causan la enfermedad."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Arquitectura de Elecciones",
+        "question": "\u00bfQu\u00e9 significa ser 'arquitecto de las elecciones' en promoci\u00f3n de la salud?",
+        "options": [
+          {
+            "text": "Imponer leyes obligatorias para todos los ciudadanos.",
+            "is_correct": false
+          },
+          {
+            "text": "Configurar el entorno para que la opci\u00f3n m\u00e1s saludable sea la m\u00e1s f\u00e1cil de elegir.",
+            "is_correct": true
+          },
+          {
+            "text": "Educar individualmente a cada paciente en la consulta.",
+            "is_correct": false
+          },
+          {
+            "text": "Limitar la libertad de elecci\u00f3n de los individuos.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "Ser arquitecto de las elecciones implica dise\u00f1ar el entorno y las opciones (pistas contextuales) para que, sin compulsi\u00f3n, las personas elijan naturalmente lo mejor para su salud."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Desigualdades de G\u00e9nero",
+        "question": "\u00bfC\u00f3mo se define el g\u00e9nero en el contexto de las desigualdades en salud?",
+        "options": [
+          {
+            "text": "Como una categor\u00eda puramente biol\u00f3gica.",
+            "is_correct": false
+          },
+          {
+            "text": "Como la construcci\u00f3n social de las diferencias basadas en el sexo.",
+            "is_correct": true
+          },
+          {
+            "text": "Como un factor que no influye en la salud.",
+            "is_correct": false
+          },
+          {
+            "text": "Como una caracter\u00edstica inmutable desde el nacimiento.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El g\u00e9nero es la construcci\u00f3n social de las diferencias basadas en el sexo, atendiendo a funciones, comportamientos y atributos que la sociedad considera apropiados."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Desigualdad y Discapacidad",
+        "question": "\u00bfQu\u00e9 factor es fundamental para determinar la autonom\u00eda de las personas con discapacidad?",
+        "options": [
+          {
+            "text": "La eliminaci\u00f3n total de cualquier deficiencia f\u00edsica.",
+            "is_correct": false
+          },
+          {
+            "text": "El equilibrio entre la experiencia personal y la responsabilidad social.",
+            "is_correct": true
+          },
+          {
+            "text": "La dependencia exclusiva de la familia.",
+            "is_correct": false
+          },
+          {
+            "text": "La ausencia de tecnolog\u00eda de apoyo.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La autonom\u00eda de las personas con discapacidad depende del equilibrio entre su experiencia personal y la responsabilidad social, incluyendo el entorno y las barreras ambientales."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Desigualdades en Espa\u00f1a",
+        "question": "\u00bfQu\u00e9 patr\u00f3n geogr\u00e1fico de mortalidad se ha descrito en Espa\u00f1a?",
+        "options": [
+          {
+            "text": "Un gradiente de norte a sur sin relaci\u00f3n con la desigualdad social.",
+            "is_correct": false
+          },
+          {
+            "text": "Un gradiente diagonal del nordeste al sudoeste asociado a la desigualdad social.",
+            "is_correct": true
+          },
+          {
+            "text": "Una distribuci\u00f3n aleatoria sin \u00e1reas de mayor riesgo.",
+            "is_correct": false
+          },
+          {
+            "text": "Una mayor mortalidad en las zonas m\u00e1s ricas del pa\u00eds.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "En Espa\u00f1a existe un gradiente geogr\u00e1fico de mortalidad que va del nordeste al sudoeste, el cual se asocia estrechamente con la desigualdad social."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Bio\u00e9tica y Econom\u00eda",
+        "question": "\u00bfQu\u00e9 riesgo principal conlleva la comercializaci\u00f3n de la ciencia en la investigaci\u00f3n biom\u00e9dica?",
+        "options": [
+          {
+            "text": "La falta de inter\u00e9s de las empresas por investigar.",
+            "is_correct": false
+          },
+          {
+            "text": "La aparici\u00f3n de conflictos de inter\u00e9s que comprometen el juicio profesional.",
+            "is_correct": true
+          },
+          {
+            "text": "El exceso de transparencia en los resultados.",
+            "is_correct": false
+          },
+          {
+            "text": "La disminuci\u00f3n de los costes de los f\u00e1rmacos.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La comercializaci\u00f3n puede generar conflictos de inter\u00e9s donde los v\u00ednculos econ\u00f3micos influyen en la publicaci\u00f3n de resultados o en la minimizaci\u00f3n de riesgos de productos."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "\u00c9tica de la Investigaci\u00f3n",
+        "question": "\u00bfQu\u00e9 principio debe prevalecer en cualquier investigaci\u00f3n biom\u00e9dica seg\u00fan la ley espa\u00f1ola?",
+        "options": [
+          {
+            "text": "El inter\u00e9s de la ciencia sobre el individuo.",
+            "is_correct": false
+          },
+          {
+            "text": "El bien del ser humano sobre los intereses de la sociedad o la ciencia.",
+            "is_correct": true
+          },
+          {
+            "text": "La rentabilidad econ\u00f3mica del experimento.",
+            "is_correct": false
+          },
+          {
+            "text": "La rapidez en la obtenci\u00f3n de resultados.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La legislaci\u00f3n espa\u00f1ola establece que el bien del ser humano que participa en una investigaci\u00f3n debe prevalecer siempre sobre los intereses de la sociedad o la ciencia."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Relaci\u00f3n M\u00e9dico-Paciente",
+        "question": "\u00bfQu\u00e9 es la 'excelencia' en la pr\u00e1ctica m\u00e9dica seg\u00fan Diego Gracia?",
+        "options": [
+          {
+            "text": "La combinaci\u00f3n de excelencia t\u00e9cnica y excelencia moral.",
+            "is_correct": true
+          },
+          {
+            "text": "La capacidad de curar todas las enfermedades.",
+            "is_correct": false
+          },
+          {
+            "text": "El uso exclusivo de la tecnolog\u00eda m\u00e1s avanzada.",
+            "is_correct": false
+          },
+          {
+            "text": "La obediencia ciega a las normas administrativas.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La excelencia (aret\u00e9) exige tanto estar al d\u00eda t\u00e9cnicamente (ser buen m\u00e9dico) como ser una persona virtuosa (ser m\u00e9dico bueno)."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Salud P\u00fablica Moderna",
+        "question": "\u00bfQu\u00e9 caracteriza a la 'nueva salud p\u00fablica'?",
+        "options": [
+          {
+            "text": "Centrarse \u00fanicamente en la acci\u00f3n terap\u00e9utica.",
+            "is_correct": false
+          },
+          {
+            "text": "La necesidad de una cultura donde las conductas saludables sean la norma.",
+            "is_correct": true
+          },
+          {
+            "text": "El abandono de la participaci\u00f3n comunitaria.",
+            "is_correct": false
+          },
+          {
+            "text": "La dependencia exclusiva de soluciones tecnol\u00f3gicas.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La nueva salud p\u00fablica busca implantar una cultura donde el entorno institucional, social y f\u00edsico apoye las conductas saludables, superando la visi\u00f3n puramente terap\u00e9utica."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Pandemias y Conducta",
+        "question": "\u00bfQu\u00e9 lecci\u00f3n se extrae de la pandemia de VIH/sida respecto a la prevenci\u00f3n?",
+        "options": [
+          {
+            "text": "Que solo los tratamientos antirretrovirales son eficaces.",
+            "is_correct": false
+          },
+          {
+            "text": "Que las estrategias de prevenci\u00f3n primaria basadas en cambios de conducta son fundamentales.",
+            "is_correct": true
+          },
+          {
+            "text": "Que la prevenci\u00f3n primaria es in\u00fatil.",
+            "is_correct": false
+          },
+          {
+            "text": "Que el uso de preservativos es la \u00fanica estrategia necesaria.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El \u00e9xito de pa\u00edses como Uganda demostr\u00f3 que las estrategias de prevenci\u00f3n primaria orientadas a cambios responsables en la conducta fueron altamente efectivas."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Factores de Riesgo Cardiovascular",
+        "question": "\u00bfPor qu\u00e9 ha sido frustrante la realidad de los factores de riesgo cardiovascular en Europa?",
+        "options": [
+          {
+            "text": "Porque han desaparecido todas las enfermedades cardiovasculares.",
+            "is_correct": false
+          },
+          {
+            "text": "Porque las prevalencias han permanecido inalteradas o empeorado a pesar del uso de f\u00e1rmacos.",
+            "is_correct": true
+          },
+          {
+            "text": "Porque los f\u00e1rmacos han eliminado la necesidad de dieta sana.",
+            "is_correct": false
+          },
+          {
+            "text": "Porque el tabaco ha sido erradicado completamente.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "A pesar del mayor uso de f\u00e1rmacos, las prevalencias de factores de riesgo como la obesidad y el tabaquismo no han mejorado, indicando que no se ha afrontado la ra\u00edz del problema."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Ensayos de Estilo de Vida",
+        "question": "\u00bfQu\u00e9 demostr\u00f3 el ensayo PREDIMED?",
+        "options": [
+          {
+            "text": "Que la dieta mediterr\u00e1nea no tiene impacto en la salud cardiovascular.",
+            "is_correct": false
+          },
+          {
+            "text": "La efectividad de la dieta mediterr\u00e1nea en la prevenci\u00f3n primaria de enfermedades cardiovasculares.",
+            "is_correct": true
+          },
+          {
+            "text": "Que los f\u00e1rmacos son superiores a la dieta en la prevenci\u00f3n.",
+            "is_correct": false
+          },
+          {
+            "text": "Que el ejercicio f\u00edsico es innecesario si se sigue una dieta.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "El ensayo PREDIMED proporcion\u00f3 pruebas s\u00f3lidas de que la dieta mediterr\u00e1nea reduce significativamente el riesgo de episodios cardiovasculares graves."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Obesidad",
+        "question": "\u00bfCu\u00e1l es el mensaje fundamental para combatir la pandemia de obesidad?",
+        "options": [
+          {
+            "text": "Buscar una p\u00edldora m\u00e1gica que permita comer sin ganar peso.",
+            "is_correct": false
+          },
+          {
+            "text": "Comer menos y moverse m\u00e1s.",
+            "is_correct": true
+          },
+          {
+            "text": "Aumentar el consumo de suplementos diet\u00e9ticos.",
+            "is_correct": false
+          },
+          {
+            "text": "Centrarse \u00fanicamente en la cirug\u00eda bari\u00e1trica.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "A pesar de los espejismos tecnol\u00f3gicos, el mensaje fundamental y m\u00e1s eficaz para combatir la obesidad sigue siendo 'comer menos y moverse m\u00e1s'."
+      },
+      {
+        "type": "multiple_choice",
+        "topic": "Tabaco",
+        "question": "\u00bfCu\u00e1l debe ser el \u00e9nfasis prioritario en la lucha contra el tabaco?",
+        "options": [
+          {
+            "text": "El cribado con TAC en fumadores.",
+            "is_correct": false
+          },
+          {
+            "text": "La prevenci\u00f3n primaria mediante la evitaci\u00f3n total de la exposici\u00f3n.",
+            "is_correct": true
+          },
+          {
+            "text": "El tratamiento de los c\u00e1nceres de pulm\u00f3n ya diagnosticados.",
+            "is_correct": false
+          },
+          {
+            "text": "La reducci\u00f3n de da\u00f1os mediante cigarrillos electr\u00f3nicos.",
+            "is_correct": false
+          }
+        ],
+        "explanation": "La prevenci\u00f3n primaria (evitaci\u00f3n total) es la estrategia m\u00e1s robusta y eficaz, debiendo desnormalizar el tabaco para que sea percibido como un producto sin inter\u00e9s."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Salud P\u00fablica",
+        "question": "Explique la diferencia entre las acciones de protecci\u00f3n de la salud y las de promoci\u00f3n de la salud seg\u00fan el modelo de Salleras.",
+        "explanation": "La protecci\u00f3n de la salud se enfoca en el control sanitario del medio ambiente (agua, aire, alimentos), mientras que la promoci\u00f3n de la salud incide sobre las personas para incrementar sus niveles de salud y prevenir enfermedades espec\u00edficas."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Determinantes Sociales",
+        "question": "Defina el concepto de 'corporizaci\u00f3n' seg\u00fan Nancy Krieger y su relevancia en la salud.",
+        "explanation": "La corporizaci\u00f3n es c\u00f3mo incorporamos biol\u00f3gicamente el mundo material y social en el que vivimos; es relevante porque ning\u00fan aspecto de nuestra biolog\u00eda puede entenderse sin su contexto hist\u00f3rico y social."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Bio\u00e9tica",
+        "question": "Seg\u00fan el texto, \u00bfpor qu\u00e9 la tolerancia no puede ser el valor supremo en la b\u00fasqueda del bien \u00e9tico?",
+        "explanation": "La tolerancia no puede ser el valor supremo porque incluye la noci\u00f3n de soportar pacientemente lo que tiene car\u00e1cter de mal, y por encima de ella debe estar la justicia ante lo que es intolerable."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Promoci\u00f3n de la Salud",
+        "question": "Mencione los 5 elementos fijados por la Carta de Ottawa (1986) para la promoci\u00f3n de la salud.",
+        "explanation": "1. Desarrollar pol\u00edticas p\u00fablicas saludables, 2. Crear entornos favorables a la salud, 3. Fortalecer acciones comunitarias, 4. Desarrollar habilidades personales, 5. Reorientar los servicios de salud."
+      },
+      {
+        "type": "open_ended",
+        "topic": "Estrategias Preventivas",
+        "question": "Explique brevemente por qu\u00e9 la estrategia poblacional de prevenci\u00f3n es m\u00e1s atractiva que la de alto riesgo para enfermedades de alta incidencia.",
+        "explanation": "Porque la estrategia poblacional act\u00faa sobre el gran contingente de personas con niveles medios de riesgo, evitando m\u00e1s casos totales que la estrategia de alto riesgo, que se limita a un grupo peque\u00f1o."
+      }
+    ],
+    "documents_count": 3
+  }
+}

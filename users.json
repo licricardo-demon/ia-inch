@@ -1,0 +1,22 @@
+{
+  "dani@icloud.com": {
+    "email": "dani@icloud.com",
+    "name": "Dani",
+    "created_at": "2026-10-11T13:16:00.593628"
+  },
+  "amigo@icloud.com": {
+    "email": "amigo@icloud.com",
+    "name": "Carlos",
+    "created_at": "2026-10-11T13:21:40.305300"
+  },
+  "licricardo8792@icloud.com": {
+    "email": "licricardo8792@icloud.com",
+    "name": "Richi",
+    "created_at": "2026-10-11T13:27:50.192733"
+  },
+  "ricardo@icloud.com": {
+    "email": "ricardo@icloud.com",
+    "name": "Ricardo",
+    "created_at": "2026-10-11T13:28:09.186857"
+  }
+}

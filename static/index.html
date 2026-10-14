@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA-inch by richi — Estudio Inteligente</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Apple Luxury Monochromatic Navigation Bar -->
+    <nav class="apple-nav">
+        <div class="nav-content">
+            <div class="brand" onclick="showDashboard()">
+                <div class="apple-logo-badge">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                </div>
+                <div class="brand-text-block">
+                    <span class="brand-name">IA-inch</span>
+                    <span class="author-tag">by richi</span>
+                </div>
+            </div>
+            <div class="nav-actions" id="nav-actions-auth">
+                <button class="nav-btn" onclick="showDashboard()">Mis Exámenes</button>
+                <button class="nav-btn primary-nav-btn" onclick="showSection('create-section')">+ Nuevo Examen</button>
+                <div class="user-profile-chip hidden" id="nav-user-chip">
+                    <span class="user-chip-icon">☁️</span>
+                    <span id="nav-user-name" class="user-chip-name">iCloud</span>
+                    <button class="logout-btn-minimal" onclick="logoutUser(event)" title="Cerrar sesión de iCloud">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <!-- 0. ICLOUD SIGN IN VIEW -->
+        <section id="auth-section" class="view-section">
+            <div class="apple-card auth-card">
+                <div class="auth-icon-wrap">
+                    <div class="icloud-symbol">
+                        <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="auth-header">
+                    <span class="pill-badge apple-badge">iCloud Sync</span>
+                    <h2>Inicia sesión con Apple</h2>
+                    <p>Conéctate con tu cuenta de iCloud para acceder a tus exámenes privados y documentos personales de estudio.</p>
+                </div>
+
+                <form class="apple-form auth-form" onsubmit="handleAuthSubmit(event)">
+                    <div class="form-row">
+                        <label for="auth-email">Apple ID o Correo de iCloud</label>
+                        <input type="text" id="auth-email" class="apple-input" placeholder="ejemplo@icloud.com" required autocomplete="email">
+                    </div>
+                    <div class="form-row">
+                        <label for="auth-name">Tu Nombre (opcional)</label>
+                        <input type="text" id="auth-name" class="apple-input" placeholder="Ej. Dani o Ricardo" autocomplete="name">
+                    </div>
+                    
+                    <button type="submit" class="apple-btn primary apple-signin-btn">
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.63-.77 1.06-1.85.94-2.93-.91.04-2.02.61-2.67 1.37-.58.67-1.08 1.76-.94 2.81 1.02.08 2.05-.49 2.67-1.25z"/>
+                        </svg>
+                        Continuar con iCloud
+                    </button>
+                </form>
+
+                <div class="auth-divider">
+                    <span>o accede con un toque</span>
+                </div>
+
+                <div class="quick-accounts">
+                    <button class="quick-account-btn" onclick="openPasscodeModal('dani@icloud.com', 'Dani')">
+                        <div class="quick-account-avatar">D</div>
+                        <div class="quick-account-info">
+                            <div class="quick-name-row">
+                                <span class="quick-name">Dani</span>
+                                <span class="lock-pill">🔒 PIN</span>
+                            </div>
+                            <span class="quick-email">dani@icloud.com</span>
+                        </div>
+                        <span class="quick-chevron">›</span>
+                    </button>
+                    <button class="quick-account-btn" onclick="openPasscodeModal('ricardo@icloud.com', 'Ricardo')">
+                        <div class="quick-account-avatar">R</div>
+                        <div class="quick-account-info">
+                            <div class="quick-name-row">
+                                <span class="quick-name">Ricardo</span>
+                                <span class="lock-pill">🔒 PIN</span>
+                            </div>
+                            <span class="quick-email">ricardo@icloud.com</span>
+                        </div>
+                        <span class="quick-chevron">›</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1. DASHBOARD VIEW -->
+        <section id="dashboard-section" class="view-section hidden">
+            <header class="section-hero">
+                <div class="hero-badge-wrap">
+                    <span class="hero-badge">IA-inch <span class="badge-accent">by richi</span></span>
+                </div>
+                <h1 class="hero-title">El estándar de oro<br><span class="hero-title-accent">para tu estudio.</span></h1>
+                <p class="hero-subtitle">Combina múltiples documentos, lecturas o apuntes en un único examen inteligente con hasta 50 preguntas y retroalimentación instantánea.</p>
+            </header>
+
+            <div class="dashboard-header-bar">
+                <div class="dashboard-title-group">
+                    <h2 id="library-user-title">Tu Biblioteca</h2>
+                    <span id="quizzes-count-badge" class="pill-badge">0 exámenes</span>
+                </div>
+                <button class="apple-btn primary" onclick="showSection('create-section')">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    Nuevo Examen
+                </button>
+            </div>
+
+            <div id="quiz-list" class="quiz-grid">
+                <!-- Se llena dinámicamente con app.js -->
+            </div>
+        </section>
+
+        <!-- 2. CREATE EXAM VIEW -->
+        <section id="create-section" class="view-section hidden">
+            <div class="apple-card create-card">
+                <div class="card-top-nav">
+                    <button class="icon-back-btn" onclick="showDashboard()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        Volver
+                    </button>
+                    <span class="step-indicator">Configuración de Examen</span>
+                </div>
+
+                <div class="create-header">
+                    <h2>Diseñar Cuestionario</h2>
+                    <p>Sube uno o varios documentos y personaliza la mezcla de preguntas cerradas y abiertas (hasta 50).</p>
+                </div>
+
+                <div class="apple-form">
+                    <div class="form-row">
+                        <label for="quiz-name">Nombre del Examen o Materia</label>
+                        <input type="text" id="quiz-name" class="apple-input" placeholder="Ej. Medicina Interna — Bloque 1 y 2" autocomplete="off">
+                    </div>
+
+                    <!-- MENÚ DE PREGUNTAS ABIERTAS Y CERRADAS (HASTA 50) -->
+                    <div class="distribution-panel">
+                        <div class="distribution-header">
+                            <div>
+                                <h3 class="panel-title">Estructura del Cuestionario</h3>
+                                <p class="panel-sub">Distribuye el tipo de evaluación según tus necesidades</p>
+                            </div>
+                            <div class="total-badge-box">
+                                <span class="total-label">Total:</span>
+                                <span id="total-questions-count" class="total-number">10</span>
+                                <span class="total-max">/ 50 máx</span>
+                            </div>
+                        </div>
+
+                        <!-- Preguntas Cerradas (hasta 50) -->
+                        <div class="slider-control-group">
+                            <div class="control-meta">
+                                <div class="control-label-wrap">
+                                    <span class="control-name">Preguntas Cerradas (Opción Múltiple)</span>
+                                    <span class="control-desc">4 opciones de respuesta con 1 correcta inmediata</span>
+                                </div>
+                                <span id="closed-count-badge" class="slider-counter">8</span>
+                            </div>
+                            <input type="range" id="quiz-closed-amount" min="0" max="50" value="8" class="apple-range" oninput="updateQuestionsDistribution()">
+                        </div>
+
+                        <!-- Preguntas Abiertas (hasta 50) -->
+                        <div class="slider-control-group">
+                            <div class="control-meta">
+                                <div class="control-label-wrap">
+                                    <span class="control-name">Preguntas Abiertas (Desarrollo)</span>
+                                    <span class="control-desc">Cajas de texto libre con evaluación semántica inteligente</span>
+                                </div>
+                                <span id="open-count-badge" class="slider-counter">2</span>
+                            </div>
+                            <input type="range" id="quiz-open-amount" min="0" max="50" value="2" class="apple-range" oninput="updateQuestionsDistribution()">
+                        </div>
+                    </div>
+
+                    <!-- ZONA DE CARGA MULTI-DOCUMENTO -->
+                    <div class="form-row">
+                        <div class="docs-label-row">
+                            <label>Materiales de Estudio</label>
+                            <span id="docs-count-indicator" class="pill-badge hidden">0 archivos listos</span>
+                        </div>
+                        <div class="apple-dropzone" id="drop-zone">
+                            <div class="dropzone-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="17 8 12 3 7 8"></polyline>
+                                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                                </svg>
+                            </div>
+                            <p class="dropzone-title">Arrastra uno o varios documentos aquí</p>
+                            <p class="dropzone-desc">Puedes seleccionar múltiples archivos a la vez (PDF, Word, Diapositivas, TXT o Imágenes)</p>
+                            <input type="file" id="file-input" multiple hidden>
+                            <button class="apple-btn secondary btn-sm" onclick="document.getElementById('file-input').click()">
+                                Explorar Documentos
+                            </button>
+                        </div>
+
+                        <!-- LISTA DE ARCHIVOS SELECCIONADOS -->
+                        <div id="selected-files-list" class="selected-files-container hidden">
+                            <!-- Inyectado por JS -->
+                        </div>
+                    </div>
+
+                    <!-- ANIMACIÓN DE PROGRESO (SOLO AZUL APPLE) -->
+                    <div id="loading-container" class="loading-panel hidden">
+                        <div class="progress-header">
+                            <span id="loading-step-text" class="loading-step-text">Analizando materiales...</span>
+                            <span id="loading-percent" class="loading-percent">0%</span>
+                        </div>
+                        <div class="progress-bar-track">
+                            <div id="progress-bar-fill" class="progress-bar-fill"></div>
+                        </div>
+                        <div class="progress-milestones">
+                            <div class="milestone-item" id="ms-1"><span class="dot"></span> Lectura multidocumento</div>
+                            <div class="milestone-item" id="ms-2"><span class="dot"></span> Integración de conceptos</div>
+                            <div class="milestone-item" id="ms-3"><span class="dot"></span> Formulación de preguntas</div>
+                            <div class="milestone-item" id="ms-4"><span class="dot"></span> Retroalimentaciones</div>
+                        </div>
+                    </div>
+
+                    <div id="error-message" class="apple-alert error hidden"></div>
+
+                    <div class="form-actions">
+                        <button id="btn-generate" class="apple-btn primary btn-full hidden">
+                            Generar Cuestionario Multidocumento
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. ACTIVE QUIZ PLAY VIEW -->
+        <section id="quiz-section" class="view-section hidden">
+            <div class="apple-card quiz-card-view">
+                <div class="quiz-top-bar">
+                    <div class="quiz-meta-info">
+                        <button class="exit-quiz-btn" onclick="confirmExitQuiz()">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                            Salir
+                        </button>
+                        <span id="active-quiz-title" class="quiz-name-heading">Examen</span>
+                    </div>
+                    <div class="quiz-progress-pills">
+                        <span id="question-topic-pill" class="pill-badge topic-pill">Tema</span>
+                        <span id="question-counter" class="pill-badge">Pregunta 1 de 10</span>
+                    </div>
+                </div>
+
+                <!-- Barra de progreso superior -->
+                <div class="quiz-linear-progress">
+                    <div id="quiz-linear-bar" class="quiz-linear-fill"></div>
+                </div>
+
+                <!-- Pregunta -->
+                <div id="question-container" class="question-body">
+                    <!-- Rendered by app.js -->
+                </div>
+
+                <!-- Controles -->
+                <div class="quiz-bottom-controls">
+                    <button id="btn-next" class="apple-btn primary hidden">
+                        Siguiente Pregunta
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. RESULTS & ANALYTICS VIEW -->
+        <section id="results-section" class="view-section hidden">
+            <div class="apple-card results-card">
+                <div class="results-header">
+                    <div id="score-ring-container" class="score-ring-wrap">
+                        <span id="results-percentage" class="score-percentage-num">0%</span>
+                        <span class="score-subtext">Precisión</span>
+                    </div>
+                    <h2 id="results-headline">Examen Concluido</h2>
+                    <p id="results-subheadline" class="results-message">Resumen ejecutivo de tu rendimiento.</p>
+                </div>
+
+                <!-- Aciertos y Errores -->
+                <div class="score-summary-grid">
+                    <div class="summary-stat-box success-box">
+                        <span class="stat-number" id="correct-count">0</span>
+                        <span class="stat-label">Aciertos (Buenas)</span>
+                    </div>
+                    <div class="summary-stat-box error-box">
+                        <span class="stat-number" id="incorrect-count">0</span>
+                        <span class="stat-label">Errores (Malas)</span>
+                    </div>
+                </div>
+
+                <!-- Áreas Específicas a Mejorar -->
+                <div class="improvement-section">
+                    <div class="improvement-header">
+                        <div class="icon-circle">🎯</div>
+                        <div>
+                            <h3>Diagnóstico: Áreas a Mejorar</h3>
+                            <p class="desc">Conceptos donde tuviste errores para reforzar en tus materiales de estudio.</p>
+                        </div>
+                    </div>
+                    <div id="improvement-list" class="improvement-list">
+                        <!-- Generado por app.js -->
+                    </div>
+                </div>
+
+                <!-- Botones de Acción -->
+                <div class="results-actions">
+                    <button id="btn-retry-missed" class="apple-btn secondary hidden" onclick="retryMissedQuestions()">
+                        🔁 Repasar Preguntas Falladas
+                    </button>
+                    <button class="apple-btn secondary" onclick="restartCurrentQuiz()">
+                        🔄 Reintentar Examen Completo
+                    </button>
+                    <button class="apple-btn primary" onclick="showDashboard()">
+                        Volver a la Biblioteca
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Apple Passcode Security Modal -->
+    <div id="passcode-modal" class="apple-modal-overlay hidden">
+        <div class="apple-modal-box">
+            <div class="passcode-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+            </div>
+            <h3 id="passcode-modal-title">Acceso Protegido</h3>
+            <p id="passcode-modal-sub">Ingresa el código PIN de seguridad (4 dígitos) para desbloquear esta biblioteca.</p>
+            
+            <form onsubmit="submitPasscode(event)" class="passcode-form">
+                <div class="passcode-input-wrap">
+                    <input type="password" id="passcode-input" class="apple-input passcode-input" maxlength="6" placeholder="••••" autocomplete="off" inputmode="numeric">
+                </div>
+                <div id="passcode-error" class="passcode-error-msg hidden">Código incorrecto. Intenta de nuevo.</div>
+                
+                <div class="passcode-modal-actions">
+                    <button type="button" class="apple-btn secondary" onclick="closePasscodeModal()">Cancelar</button>
+                    <button type="submit" class="apple-btn primary" id="btn-submit-passcode">Desbloquear</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Apple Luxury Minimalist Footer -->
+    <footer class="apple-footer">
+        <div class="footer-container">
+            <p class="footer-dedication">made by richi to dani.</p>
+            <p class="footer-copyright">© 2026 Ricardo Esau Villalobos Toscano. Todos los derechos reservados.</p>
+            <p class="footer-meta">IA-inch • Bóveda Inteligente de Estudio Multi-Documento</p>
+        </div>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
