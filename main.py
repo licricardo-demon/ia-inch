@@ -129,6 +129,7 @@ async def get_quizzes(user_email: Optional[str] = None):
             "id": q_id,
             "name": q_data.get("name", "Examen sin título"),
             "date": q_data.get("date", ""),
+            "difficulty": q_data.get("difficulty", "facil"),
             "num_questions": len(q_data.get("questions", [])),
             "user_id": q_user
         })
@@ -161,6 +162,7 @@ async def create_quiz(
     file: Optional[UploadFile] = File(default=None),
     quiz_name: str = Form("Mi Examen"),
     user_email: str = Form("ricardo@icloud.com"),
+    difficulty: str = Form("facil"),
     num_closed: Optional[int] = Form(None),
     num_open: Optional[int] = Form(None),
     num_questions: Optional[int] = Form(None)
@@ -175,6 +177,11 @@ async def create_quiz(
         
     if not all_files:
         raise HTTPException(status_code=400, detail="Debes subir al menos un documento para generar el examen.")
+
+    # Validar nivel de dificultad
+    diff_clean = (difficulty or "facil").strip().lower()
+    if diff_clean not in ["facil", "intermedio", "avanzado", "extremo"]:
+        diff_clean = "facil"
 
     try:
         # Resolver cantidad de preguntas cerradas y abiertas (máximo 50)
@@ -212,7 +219,7 @@ async def create_quiz(
                         'name': uf.filename or "documento"
                     })
 
-            quiz_data = llm_service.generate_quiz_from_files(files_info, num_closed=c, num_open=o)
+            quiz_data = llm_service.generate_quiz_from_files(files_info, num_closed=c, num_open=o, difficulty=diff_clean)
         finally:
             for p in temp_paths:
                 if os.path.exists(p):
@@ -234,6 +241,7 @@ async def create_quiz(
             "user_id": norm_user,
             "name": quiz_name.strip() or "Examen Multidocumento",
             "date": datetime.now().isoformat(),
+            "difficulty": diff_clean,
             "questions": quiz_data.get("questions", []),
             "documents_count": len(all_files)
         }

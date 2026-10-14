@@ -9,9 +9,68 @@ let selectedFiles = []; // Array of File objects
 let userResponses = [];
 let isReviewingMissedOnly = false;
 let originalQuizBackup = null;
+let selectedDifficulty = 'facil';
 
 let progressInterval = null;
 let currentPercent = 0;
+
+const DIFFICULTY_INFO = {
+    facil: {
+        name: 'Fácil (Predeterminado)',
+        pillClass: 'pill-facil',
+        bannerText: '<strong>Fácil (Predeterminado):</strong> Ideal para memorizar conceptos base, términos directos y estructura general de los documentos.'
+    },
+    intermedio: {
+        name: 'Intermedio',
+        pillClass: 'pill-intermedio',
+        bannerText: '<strong>Intermedio:</strong> Aplica los conceptos a casos hipotéticos y consecuencias prácticas. Evalúa razonamiento más allá de la memoria.'
+    },
+    avanzado: {
+        name: 'Avanzado',
+        pillClass: 'pill-avanzado',
+        bannerText: '<strong>Avanzado:</strong> Análisis de excepciones sutiles, conexiones interdisciplinarias complejas y distractores técnicos equilibrados.'
+    },
+    extremo: {
+        name: '🔥 Extremo (Máximo)',
+        pillClass: 'pill-extremo',
+        bannerText: '<strong>Extremo:</strong> Formulado con el contenido más denso e intrincado analizado por la IA. Opciones de longitud idéntica, sin pistas visuales y con trampas conceptuales.'
+    }
+};
+
+function selectDifficulty(level) {
+    selectedDifficulty = level;
+    const hiddenInput = document.getElementById('quiz-difficulty');
+    if (hiddenInput) hiddenInput.value = level;
+
+    document.querySelectorAll('.difficulty-card').forEach(card => {
+        if (card.getAttribute('data-level') === level) {
+            card.classList.add('active');
+        } else {
+            card.classList.remove('active');
+        }
+    });
+
+    const info = DIFFICULTY_INFO[level] || DIFFICULTY_INFO['facil'];
+    const currentBadge = document.getElementById('difficulty-badge-current');
+    if (currentBadge) {
+        currentBadge.textContent = info.name;
+        currentBadge.className = `difficulty-pill ${info.pillClass}`;
+    }
+
+    const detailText = document.getElementById('difficulty-detail-text');
+    if (detailText) {
+        detailText.innerHTML = info.bannerText;
+    }
+}
+window.selectDifficulty = selectDifficulty;
+
+function getDifficultyBadgeHtml(diff) {
+    const d = (diff || 'facil').toLowerCase();
+    if (d === 'extremo') return '<span class="diff-chip chip-extremo">⚡ Extremo</span>';
+    if (d === 'avanzado') return '<span class="diff-chip chip-avanzado">Avanzado</span>';
+    if (d === 'intermedio') return '<span class="diff-chip chip-intermedio">Intermedio</span>';
+    return '<span class="diff-chip chip-facil">Fácil</span>';
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     // Verificar si hay sesión guardada de iCloud
@@ -425,6 +484,7 @@ async function fetchQuizzes() {
                 <div class="quiz-card-footer">
                     <div class="quiz-card-meta">
                         <span class="pill-badge">${q.num_questions} preguntas</span>
+                        ${getDifficultyBadgeHtml(q.difficulty)}
                         <span>${dateStr}</span>
                     </div>
                     <button class="btn-play-mini">
@@ -545,6 +605,7 @@ async function generateQuiz() {
     formData.append('quiz_name', quizName);
     formData.append('num_closed', closedCount);
     formData.append('num_open', openCount);
+    formData.append('difficulty', selectedDifficulty);
     if (currentUser && currentUser.email) {
         formData.append('user_email', currentUser.email);
     }
@@ -600,6 +661,21 @@ function startQuiz() {
     currentQuestionIndex = 0;
     userResponses = [];
     document.getElementById('active-quiz-title').textContent = currentQuiz.name;
+
+    const diffPill = document.getElementById('question-difficulty-pill');
+    if (diffPill) {
+        const diff = (currentQuiz.difficulty || 'facil').toLowerCase();
+        const diffConfig = {
+            facil: { label: 'Fácil', cls: 'pill-facil' },
+            intermedio: { label: 'Intermedio', cls: 'pill-intermedio' },
+            avanzado: { label: 'Avanzado', cls: 'pill-avanzado' },
+            extremo: { label: '⚡ Extremo', cls: 'pill-extremo' }
+        };
+        const cfg = diffConfig[diff] || diffConfig['facil'];
+        diffPill.className = `pill-badge difficulty-pill ${cfg.cls}`;
+        diffPill.textContent = cfg.label;
+    }
+
     showSection('quiz-section');
     renderQuestion();
 }
